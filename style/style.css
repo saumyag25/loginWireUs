@@ -1,0 +1,151 @@
+html {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-size: cover;
+}
+
+.content {
+  
+  width: 330px;
+  border-radius: 40px;
+  padding: 40px 30px;
+  margin-top: 80px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.14) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.44);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.content .text {
+  width: 183px;
+  height: 27px;
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 10px;
+  margin-left: 70px;
+  text-align: center;
+  /* identical to box height */
+
+  color: #68cc58;
+}
+
+.content .field {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.field input {
+  height: 50px;
+  width: 300px;
+  padding-left: 45px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: #263719;
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.83);
+  backdrop-filter: blur(20px);
+}
+.forgot {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fcfcfc;
+  margin: 25px auto;
+  margin-bottom: 20px;
+}
+
+.field input::placeholder {
+  color: #e0d2d2a6;
+}
+.field:nth-child(2) {
+  margin-top: 20px;
+}
+
+.field span {
+  position: absolute;
+  width: 50px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+  width: 300px;
+  height: 50px;
+  border: 0px;
+  background: #68cc58;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+.content .or {
+  color: rgba(255, 255, 255, 0.733);
+  margin-top: 9px;
+}
+
+.icon-button {
+  margin-top: 15px;
+}
+.Register {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #fcfcfc;
+  margin: 10px auto;
+  margin-bottom: 20px;
+}
+.dot {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  right:85%;
+  bottom: 10%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transform: rotate(70deg);
+  background: radial-gradient(70.38% 70.38% at 24.86% 16.04% ,#68CC58 0%,#283D14 66.13%, #263719 86.44%, #1E2316 100%) ;
+  opacity: 0.8;
+}
+.do {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left:85%;
+  bottom: 75%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transform: rotate(70deg);
+  background: radial-gradient(70.38% 70.38% at 24.86% 16.04% ,#68CC58 0%,#283D14 66.13%, #263719 86.44%, #1E2316 100%) ;
+  opacity: 0.8;
+}
